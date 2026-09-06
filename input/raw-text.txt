@@ -1,0 +1,29 @@
+[API PAYLOAD STREAM - GATEWAY NODE 01]
+
+ALU System Users:
+Official Staff: j.doe@alueducation.com
+Alumni Contact: c.keza@alumni.alueducation.com
+Student Intern: s.mugisha@si.alueducation.com
+External Contractor: partner@gmail.com
+
+Security Threat Inputs:
+Double Dot Attempt: bad..email@alueducation.com
+Phishing Attack: admin@alueducation.com.attacker.org
+
+Rwandan Phone Numbers:
+Campus Desk: +250 788 123 456
+MTN User: 0789-456-789
+Airtel Line: 00250 722 333 444
+Direct Mobile: 0738999111
+Dummy Number Attempt: 0788-000-000
+
+Financial Transaction Records:
+Visa Card: 4532-7182-9012-3456
+Mastercard: 5412 7512 3412 8910
+Amex Card: 3782-822461-71001
+Invalid Card (Fails Checksum): 4000-0000-0000-0002
+
+System Endpoints:
+Portal: https://learning.alueducation.com/courses/v1/overview
+API Health: http://staging-api.internal-net.io:8080/v1/health
+XSS Vector Attempt: http://example.com/test?param=<script>alert(1)</script>
