@@ -1,0 +1,59 @@
+{
+  "validation_summary": {
+    "total_rejected_inputs": 0,
+    "rejection_details": [
+      {
+        "input": "bad..email@alueducation.com",
+        "status": "REJECTED",
+        "reason": "Malformed email (double dot)"
+      },
+      {
+        "input": "admin@alueducation.com.attacker.org",
+        "status": "REJECTED",
+        "reason": "Potential domain spoofing"
+      },
+      {
+        "input": "4532-XXXX-XXXX-3456",
+        "status": "REJECTED",
+        "reason": "Failed Luhn checksum"
+      },
+      {
+        "input": "5412-XXXX-XXXX-8910",
+        "status": "REJECTED",
+        "reason": "Failed Luhn checksum"
+      }
+    ]
+  },
+  "extracted_data": {
+    "emails": {
+      "alu_official": [
+        "j***e@alueducation.com"
+      ],
+      "alu_alumni": [
+        "c****a@alumni.alueducation.com"
+      ],
+      "alu_si": [
+        "s*******a@si.alueducation.com"
+      ],
+      "general_external": [
+        "p*****r@gmail.com"
+      ]
+    },
+    "credit_cards": [
+      "4000-XXXX-XXXX-0002"
+    ],
+    "urls": [
+      "http://example.com/test?param=",
+      "http://staging-api.internal-net.io:8080/v1/health",
+      "https://learning.alueducation.com/courses/v1/overview"
+    ],
+    "phone_numbers": [
+      "+250 722 333 444",
+      "+250 738 999 111",
+      "+250 782 822 461",
+      "+250 788 000 000",
+      "+250 788 123 456",
+      "+250 789 456 789"
+    ]
+  }
+}
