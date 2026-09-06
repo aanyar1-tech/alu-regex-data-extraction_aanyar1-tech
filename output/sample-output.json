@@ -13,12 +13,12 @@
         "reason": "Potential domain spoofing"
       },
       {
-        "input": "4532-XXXX-XXXX-3456",
+        "input": "5412-XXXX-XXXX-8910",
         "status": "REJECTED",
         "reason": "Failed Luhn checksum"
       },
       {
-        "input": "5412-XXXX-XXXX-8910",
+        "input": "4532-XXXX-XXXX-3456",
         "status": "REJECTED",
         "reason": "Failed Luhn checksum"
       }
